@@ -17,7 +17,6 @@ import data from "./data.json";
 
 import {ReactComponent as Prev} from 'assets/svg/arrow-prev.svg';
 import {ReactComponent as Next} from 'assets/svg/arrow-next.svg';
-import {LevelUp} from '../LevelUp';
 
 /*@ts-ignore*/
 gsap.registerPlugin(window.InertiaPlugin, Draggable);
@@ -95,7 +94,6 @@ export const Carousel: React.FC = () => {
 				<Circle carouselRef={carouselRef} data={data.carousel}/>
 				<LevelButton levelButton={levelButton}/>
 			</CarouselView>
-			<LevelUp/>
 		</CarouselStyles>
 	);
 };
