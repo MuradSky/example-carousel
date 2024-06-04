@@ -1,0 +1,117 @@
+{
+  "carousel": [
+    {
+      "id": 1,
+      "for_level": 1,
+      "name": "",
+      "image": "carousel/guarantee-1.png",
+      "category": "guarantee"
+    },
+    {
+      "id": 2,
+      "for_level": 1,
+      "name": "",
+      "image": "carousel/valued-1.png",
+      "category": "valued"
+    },
+    {
+      "id": 3,
+      "for_level": 1,
+      "name": "",
+      "image": "carousel/valued-2.png",
+      "category": "valued"
+    },
+
+    {
+      "id": 5,
+      "for_level": 1,
+      "name": "",
+      "image": "carousel/valued-4.png",
+      "category": "valued"
+    },
+    {
+      "id": 6,
+      "for_level": 1,
+      "name": "",
+      "image": "carousel/valued-5.png",
+      "category": "valued"
+    },
+    {
+      "id": 7,
+      "for_level": 1,
+      "name": "",
+      "image": "carousel/valued-6.png",
+      "category": "valued"
+    },
+    {
+      "id": 4,
+      "for_level": 2,
+      "name": "",
+      "image": "carousel/valued-3.png",
+      "category": "valued"
+    },
+    {
+      "id": 8,
+      "for_level": 2,
+      "name": "",
+      "image": "carousel/valued-7.png",
+      "category": "valued"
+    },
+    {
+      "id": 9,
+      "for_level": 3,
+      "name": "",
+      "image": "carousel/valued-8.png",
+      "category": "valued"
+    },
+    {
+      "id": 10,
+      "for_level": 3,
+      "name": "",
+      "image": "carousel/valued-9.png",
+      "category": "valued"
+    },
+    {
+      "id": 11,
+      "for_level": 4,
+      "name": "",
+      "image": "carousel/valued-10.png",
+      "category": "valued"
+    },
+    {
+      "id": 12,
+      "for_level": 4,
+      "name": "",
+      "image": "carousel/valued-11.png",
+      "category": "valued"
+    },
+    {
+      "id": 13,
+      "for_level": 4,
+      "name": "",
+      "image": "carousel/valued-12.png",
+      "category": "valued"
+    },
+    {
+      "id": 14,
+      "for_level": 5,
+      "name": "",
+      "image": "carousel/main-1.png",
+      "category": "main"
+    },
+    {
+      "id": 15,
+      "for_level": 5,
+      "name": "",
+      "image": "carousel/main-2.png",
+      "category": "main"
+    },
+    {
+      "id": 16,
+      "for_level": 5,
+      "name": "",
+      "image": "carousel/main-3.png",
+      "category": "main"
+    }
+  ]
+}

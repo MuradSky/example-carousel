@@ -1,0 +1,104 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "Тинькофф",
+      "text": "Онлайн-экосистема, основанная на финансовых и лайфстайл-услугах. Тинькофф — третий крупнейший банк страны по количеству активных клиентов. Клиентами Тинькофф стали 30 млн человек по всей России.",
+      "link": "https://www.tinkoff.ru/",
+      "img": ["partners/image/1.png", "partners/image/m1.png"]
+    },
+    {
+      "id": 2,
+      "title": "А101",
+      "text": "Один из крупнейших застройщиков Москвы. Строит новые районы, торговые, спортивные и деловые центры рядом с метро. Создаёт школы и детские сады для ваших детей.",
+      "link": "https://a101.ru/",
+      "img":  ["partners/image/2.png", "partners/image/m2.png"]
+    },
+    {
+      "id": 3,
+      "title": "МореTут",
+      "text": "Дарим туристам лучший опыт путешествий с 2014 года. Выгодные поездки и круглосуточный тревел-ассистент для вашего лучшего отдыха. Летайте с нами!",
+      "link": "https://new.moretut.ru/kfc",
+      "img": ["partners/image/3.png", "partners/image/m3.png"]
+    },
+    {
+      "id": 4,
+      "title": "MTC Music",
+      "text": "МТС Music — музыкальный стриминговый сервис с доступом к 65 миллионам трекам, персональным плейлистам под разные занятия, редакторским подборкам, подкастам и радио.",
+      "link": "https://mts-music-spo.onelink.me/sKFX/ns8mzvgy",
+      "img": ["partners/image/4.png", "partners/image/m4.png"]
+    },
+    {
+      "id": 5,
+      "title": "Lerna",
+      "text": "Lerna — это единая платформа для обучения от ведущих онлайн-школ (Skillbox, Geekbrains, Skillfactory): свыше 700 курсов по передовым и востребованным направлениям.",
+      "link": "https://www.lerna.ru/",
+      "img": ["partners/image/5.png", "partners/image/m5.png"]
+    },
+    {
+      "id": 6,
+      "title": "Мосигра",
+      "text": "Крупнейшая сеть настольных игр и подарков. В магазине представлен широкий выбор популярных игр на любой возраст и вкус – от простых и понятных игровых механик до ...",
+      "link": "https://www.mosigra.ru/",
+      "img": ["partners/image/6.png", "partners/image/m6.png"]
+    },
+    {
+      "id": 7,
+      "title": "MTC Live",
+      "text": "Билеты в театр, на концерт, выставку без наценки с Кешбэком до 20%",
+      "link": "https://live.mts.ru/",
+      "img": ["partners/image/7.png", "partners/image/m7.png"]
+    }
+  ],
+  "logos": [
+    {
+      "id": 1,
+      "link": "/",
+      "img": ["partners/logo/logo-1.svg", "partners/logo/logo-1m.svg"],
+      "width": 120,
+      "height": 24
+    },
+    {
+      "id": 2,
+      "link": "/",
+      "img": ["partners/logo/logo-2.svg", "partners/logo/logo-2m.svg"],
+      "width": 153,
+      "height": 50
+    },
+    {
+      "id": 3,
+      "link": "/",
+      "img": ["partners/logo/logo-3.svg", "partners/logo/logo-3m.svg"],
+      "width": 249,
+      "height": 32
+    },
+    {
+      "id": 4,
+      "link": "/",
+      "img": ["partners/logo/logo-4.svg", "partners/logo/logo-4m.svg"],
+      "width": 190,
+      "height": 32
+    },
+    {
+      "id": 5,
+      "link": "/",
+      "img": ["partners/logo/logo-5.svg", "partners/logo/logo-5m.svg"],
+      "width": 210,
+      "height": 70
+    },
+    {
+      "id": 6,
+      "link": "/",
+      "img": ["partners/logo/logo-6.svg", "partners/logo/logo-6m.svg"],
+      "width": 299,
+      "height": 65
+    },
+    {
+      "id": 7,
+      "link": "/",
+      "img": ["partners/logo/logo-7.svg", "partners/logo/logo-7m.svg"],
+      "width": 300,
+      "height": 65
+    }
+  ]
+}

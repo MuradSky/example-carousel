@@ -1,0 +1,67 @@
+variables:
+  PROJECT_DIR: www/chickenpromo.ru
+  PROD_SERVER: chickenpromoru@172.17.199.230
+  DEV_SERVER: chickenpromoru@172.17.199.234
+  ALL_SERVERS: >
+    chickenpromoru@172.16.24.121
+    chickenpromoru@172.16.24.122
+    chickenpromoru@172.16.24.123
+    chickenpromoru@172.16.24.124
+  APP_NAME: chickenpromo.ru
+
+stages:
+  - build
+  - deploy
+  - purge_CDN_cache
+
+
+build-dev:
+  stage: build
+  only:
+    - dev
+  script:
+    - cp -av $HOME/build/.env.frontend.dev ./.env
+    - source ~/.nvm/nvm.sh
+    - yarn install --legacy-peer-deps
+    - yarn run build
+    - rsync -azhq --delete ./ $DEV_SERVER:$PROJECT_DIR
+    - curl  -X PUT https://api.selectel.ru/cdn/v2/projects/7cd48a06-41de-4bd1-8755-1eb157bed5d7/resources/8f38505e-e9a8-47e0-9aa4-0d20e93c1aba/purge  -H "X-token:iAAAgzgx21lnnCzf8J3E5ZsaD_122054"   -d  '{"paths":[]}'
+
+deploy-prod:
+  stage: deploy
+  only:
+    - master
+  when: manual
+  script:
+    - cp -av $HOME/build/.env.frontend.prod ./.env
+    - source ~/.nvm/nvm.sh
+    - yarn install --legacy-peer-deps
+    - yarn run build
+    - ssh $PROD_SERVER "( [ -d $PROJECT_DIR.bak ] && rm -rf $PROJECT_DIR.bak ) || echo 'failed, move to next step'"
+    - ssh $PROD_SERVER "( [ -d $PROJECT_DIR ] && mv $PROJECT_DIR $PROJECT_DIR.bak ) || echo 'ok, next'"
+    - rsync -azhq --delete ./ $PROD_SERVER:$PROJECT_DIR
+
+deploy-all:
+  stage: deploy
+  only:
+    - master
+  when: manual
+  script:
+    - cp -av $HOME/build/.env.frontend.prod ./.env
+    - source ~/.nvm/nvm.sh
+    - yarn install --legacy-peer-deps
+    - yarn run build
+    - |
+      for SERVER in $ALL_SERVERS
+      do
+        echo "rsync to $SERVER"
+        rsync -aq --delete ./build/ $SERVER:$PROJECT_DIR
+      done
+purge_CDN_cache-prod:
+  stage: purge_CDN_cache
+  only:
+    - master
+  when: manual
+  script:
+    - curl  -X PUT https://api.selectel.ru/cdn/v2/projects/7cd48a06-41de-4bd1-8755-1eb157bed5d7/resources/3ab5846d-766a-4139-8e07-07aaf5819e26/purge  -H "X-token:iAAAgzgx21lnnCzf8J3E5ZsaD_122054"   -d  '{"paths":[]}'
+    

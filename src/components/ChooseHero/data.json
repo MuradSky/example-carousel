@@ -1,0 +1,126 @@
+{
+  "prizes": {
+    "basketman": {
+      "id": 1,
+      "character_name": "БАСКЕТМЭН",
+      "title": "Всегда придет на помощь и спасет от голода!",
+      "sub_title": "Расти Баскетмена и выигрывай купоны на баскеты с хрустящей курочкой!",
+      "character_image": "choose-hero/basket.png",
+      "gifts": [
+        {
+          "id": 1,
+          "img_path": "hero-gifts/basketman/1.png",
+          "level": "3 уровень",
+          "title": "Купон на Баскет Дуэт <br/> оригинальный со скидкой 50%"
+        },
+        {
+          "id": 2,
+          "img_path": "hero-gifts/basketman/2.png",
+          "level": "4 уровень",
+          "title": "Купон на Баскет М <br/> со скидкой 30%"
+        },
+        {
+          "id": 3,
+          "img_path": "hero-gifts/basketman/3.png",
+          "level": "5 уровень",
+          "title": "Купон на Домашний Баскет <br/> оригинальный со скидкой 30%"
+        }
+      ]
+    },
+    "chefburger": {
+      "id": 2,
+      "character_name": "Шефбургер",
+      "title": "Самый главный на кухне и просто настоящий гуру сочных перекусов!",
+      "sub_title": "Расти Шефбургер и выигрывай купоны на аппетитные бургеры!",
+      "character_image": "choose-hero/burger.png",
+      "gifts": [
+        {
+          "id": 6,
+          "img_path": "hero-gifts/chefburger/1.png",
+          "level": "3 уровень",
+          "title": "Купон на Шефбургер оригинальный за 1 рубль"
+        },
+        {
+          "id": 7,
+          "img_path": "hero-gifts/chefburger/2.png",
+          "level": "4 уровень",
+          "title": "Купон на Маэстро Бургер <br/> оригинальный со скидкой 30%"
+        },
+        {
+          "id": 8,
+          "img_path": "hero-gifts/chefburger/3.png",
+          "level": "5 уровень",
+          "title": "Купон на Биг Маэстро Бургер <br/> оригинальный со скидкой 50%"
+        }
+      ]
+    },
+    "rollanda": {
+      "id": 3,
+      "character_name": "Ролланда",
+      "title": "Легкая, аппетитная – очарует любого своим нежным соусом!",
+      "sub_title": "Расти Ролланду и выигрывай купоны на сочные твистеры!",
+      "character_image": "choose-hero/twist.png",
+      "gifts": [
+        {
+          "id": 11,
+          "img_path": "hero-gifts/rollanda/1.png",
+          "level": "3 уровень",
+          "title": "Купон Твистер или Ролл <br/> Оригинальный за 1 рубль"
+        },
+        {
+          "id": 12,
+          "img_path": "hero-gifts/rollanda/2.png",
+          "level": "4 уровень",
+          "title": "Купон на Твистер Де Люкс <br/> со скидкой 30%"
+        },
+        {
+          "id": 13,
+          "img_path": "hero-gifts/rollanda/3.png",
+          "level": "5 уровень",
+          "title": "Купон на БоксМастер <br/> оригинальный со скидкой 50%"
+        }
+      ]
+    } ,
+    "coffee": {
+      "id": 4,
+      "character_name": "Кофея",
+      "title": "Чашечка кофе, магическим образом бодрящая даже самую большую соню!",
+      "sub_title": "Расти Кофею и выигрывай купоны на горячий кофе!",
+      "character_image": "choose-hero/kofe.png",
+      "gifts": [
+        {
+          "id": 16,
+          "img_path": "hero-gifts/coffee/1.png",
+          "level": "2-5 уровень",
+          "title": "Купон на кофе на выбор за 1 <br/> рубль"
+        }
+      ]
+    }
+  },
+  "characters": [
+    {
+      "id": 1,
+      "name": "БАСКЕТМЕН",
+      "image": "profile-hero/basketman_05.gif",
+      "heroCall": "basketman"
+    },
+    {
+      "id": 2,
+      "name": "ШЕФБУРГЕР",
+      "image": "profile-hero/burger_05.gif",
+      "heroCall": "chefburger"
+    },
+    {
+      "id": 3,
+      "name": "Ролланда",
+      "image": "profile-hero/twisterella_05.gif",
+      "heroCall": "rollanda"
+    },
+    {
+      "id": 4,
+      "name": "КОФЕЯ",
+      "image": "profile-hero/kofea_05.gif",
+      "heroCall": "coffee"
+    }
+  ]
+}

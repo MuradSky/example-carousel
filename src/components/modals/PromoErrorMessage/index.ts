@@ -1,0 +1,1 @@
+export {PromoErrorMessage} from './PromoErrorMessage';

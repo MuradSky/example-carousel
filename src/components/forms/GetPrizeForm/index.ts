@@ -1,0 +1,1 @@
+export {GetPrizeForm} from './GetPrizeForm';

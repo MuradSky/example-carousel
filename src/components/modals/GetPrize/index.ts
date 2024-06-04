@@ -1,0 +1,1 @@
+export {GetPrize} from './GetPrize';

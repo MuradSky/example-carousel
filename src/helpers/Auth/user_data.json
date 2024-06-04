@@ -1,0 +1,148 @@
+{
+  "data": {
+    "id": 291,
+    "name": "Wayne",
+    "surname": "Strosin",
+    "birthday": "1994-09-16",
+    "email": "reed.bartell@example.com",
+    "phone": "89160872278",
+    "is_active": true,
+    "is_verified": true,
+    "email_verified_at": null,
+
+    "periods": [
+      {
+        "id": 986,
+        "date": "14.08 — 20.08 / 2023",
+        "purchases": [
+          {
+            "id": 2,
+            "sum": null,
+            "date": null,
+            "level": -1,
+            "is_register": false,
+            "is_no_shopping": true,
+            "checks": null
+          }
+        ]
+      },
+      {
+        "id": 988,
+        "date": "14.08 — 20.08 / 2023",
+        "purchases": [
+          {
+            "id": 2,
+            "sum": 1600,
+            "date": "2022-12-20 22:55:51",
+            "level": 2,
+            "is_register": false,
+            "is_no_shopping": false,
+            "checks": [
+              {
+                "id": 1,
+                "sum": 400,
+                "prizes": [
+                  {
+                    "id": 1,
+                    "name": "«Промокод на 500 бонусов от Lamoda на оплату онлайн покупок»",
+                    "rules": "Введите код, указанный в письме при оформлении заказа на сайте www.lamoda.ru.",
+                    "description": null,
+                    "is_digital": false,
+                    "image": "https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini.jpg",
+                    "type": "Гарантированный приз",
+                    "promocode": "ELES-2CFT-89JK-JDK9-EYUO"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Купон на скидку 30% на Баскет М 18 крыльев",
+                    "rules": "Введите код, указанный в письме при оформлении заказа на сайте www.lamoda.ru.",
+                    "description": null,
+                    "is_digital": false,
+                    "image": "https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini.jpg",
+                    "type": "Гарантированный приз",
+                    "promocode": "ELES-2CFT-89JK-JDK9-EYUO"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "sum": 1600,
+            "date": "2022-12-20 22:55:51",
+            "level": 5,
+            "is_register": false,
+            "is_no_shopping": false,
+            "checks": [
+              {
+                "id": 1,
+                "sum": 400,
+                "prizes": [
+                  {
+                    "id": 1,
+                    "name": "«Промокод на 500 бонусов от Lamoda на оплату онлайн покупок»",
+                    "rules": "Введите код, указанный в письме при оформлении заказа на сайте www.lamoda.ru.",
+                    "description": null,
+                    "is_digital": false,
+                    "image": "https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini.jpg",
+                    "type": "Гарантированный приз",
+                    "promocode": "ELES-2CFT-89JK-JDK9-EYUO"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Купон на скидку 30% на Баскет М 18 крыльев",
+                    "rules": "Введите код, указанный в письме при оформлении заказа на сайте www.lamoda.ru.",
+                    "description": null,
+                    "is_digital": false,
+                    "image": "https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini.jpg",
+                    "type": "Гарантированный приз",
+                    "promocode": "ELES-2CFT-89JK-JDK9-EYUO"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 981,
+        "date": "14.08 — 20.08 / 2023",
+        "purchases": [
+          {
+            "id": 1,
+            "sum": null,
+            "date": "2022-12-20 22:55:51",
+            "level": null,
+            "is_register": true,
+            "is_no_shopping": false,
+            "checks": [
+              {
+                "id": 1,
+                "sum": null,
+                "prizes": [
+                  {
+                    "id": 1,
+                    "name": "«Промокод на 500 бонусов от Lamoda на оплату онлайн покупок»",
+                    "rules": "Введите код, указанный в письме при оформлении заказа на сайте www.lamoda.ru.",
+                    "description": null,
+                    "is_digital": false,
+                    "image": "https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini.jpg",
+                    "type": "Гарантированный приз",
+                    "promocode": "ELES-2CFT-89JK-JDK9-EYUO"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "avatar": {
+      "level": 3,
+      "type": "basketman",
+      "name": "Баскетмэн"
+    }
+  }
+}
+
+

@@ -1,0 +1,1 @@
+export { AllPrizesModal } from "./AllPrizesModal";

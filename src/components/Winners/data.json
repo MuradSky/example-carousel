@@ -1,0 +1,92 @@
+[
+  {
+    "id": 10,
+    "is_current": false,
+    "is_finished": false,
+    "period": "10.10 - 17.10",
+    "start_at": "10.10.2023",
+    "finish_at": "17.10.2023",
+    "winners": null
+  },
+  {
+    "id": 9,
+    "is_current": false,
+    "is_finished": false,
+    "period": "02.10 - 09.10",
+    "start_at": "02.10.2023",
+    "finish_at": "09.10.2023",
+    "winners": null
+  },
+  {
+    "id": 8,
+    "is_current": false,
+    "is_finished": false,
+    "period": "25.09 - 01.10",
+    "start_at": "25.09.2023",
+    "finish_at": "01.10.2023",
+    "winners": null
+  },
+  {
+    "id": 7,
+    "is_current": false,
+    "is_finished": false,
+    "period": "18.09 - 24.09",
+    "start_at": "18.09.2023",
+    "finish_at": "24.09.2023",
+    "winners": null
+  },
+  {
+    "id": 6,
+    "is_current": false,
+    "is_finished": false,
+    "period": "11.09 - 17.09",
+    "start_at": "11.09.2023",
+    "finish_at": "17.09.2023",
+    "winners": null
+  },
+  {
+    "id": 5,
+    "is_current": false,
+    "is_finished": false,
+    "period": "04.09 - 10.09",
+    "start_at": "04.09.2023",
+    "finish_at": "10.09.2023",
+    "winners": null
+  },
+  {
+    "id": 4,
+    "is_current": false,
+    "is_finished": false,
+    "period": "28.08 - 03.09",
+    "start_at": "28.08.2023",
+    "finish_at": "03.09.2023",
+    "winners": null
+  },
+  {
+    "id": 3,
+    "is_current": false,
+    "is_finished": false,
+    "period": "21.08 - 27.08",
+    "start_at": "21.08.2023",
+    "finish_at": "27.08.2023",
+    "winners": null
+  },
+  {
+    "id": 2,
+    "is_current": true,
+    "is_finished": true,
+    "period": "09.08 - 20.08",
+    "start_at": "09.08.2023",
+    "finish_at": "20.08.2023",
+    "winners": null
+  },
+  {
+    "id": 1,
+    "is_current": false,
+    "is_finished": false,
+    "period": "08.07 - 08.08",
+    "start_at": "08.07.2023",
+    "finish_at": "08.08.2023",
+    "winners": null
+  }
+]

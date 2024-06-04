@@ -1,0 +1,25 @@
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1200;
+}
+
+.ReactModal__Overlay.React-Modal {
+    padding: 100px 0 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+    .ReactModal__Overlay.React-Modal {
+        padding: 50px 0 70px;
+    }
+}
+
+body.ReactModal__Body--open {
+    overflow: hidden;
+}

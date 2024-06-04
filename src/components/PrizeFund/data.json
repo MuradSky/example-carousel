@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "img": "prizes/slider/1.png",
+    "text": "Промокод на скидку 15%"
+  },
+  {
+    "id": 2,
+    "img": "prizes/slider/2.png",
+    "text": "Промокод на 3 месяца подписки Tinkoff Pro"
+  },
+  {
+    "id": 3,
+    "img": "prizes/slider/3.png",
+    "text": "Промокод на 500 рублей на карту Tinkoff Black"
+  },
+  {
+    "id": 4,
+    "img": "prizes/slider/4.png",
+    "text": "Акция от Тинькофф Инвестиций"
+  },
+  {
+    "id": 5,
+    "img": "prizes/slider/5.png",
+    "text": "Промокод на курсы школ Skillbox, GeekBrains и SkillFactory до 65%"
+  },
+  {
+    "id": 6,
+    "img": "prizes/slider/6.png",
+    "text": "Промокод на подписку до 2-х месяцев"
+  },
+  {
+    "id": 7,
+    "img": "prizes/slider/7.png",
+    "text": "Промокод на 2 месяца подписки в онлайн-кинотеатре KION"
+  },
+  {
+    "id": 8,
+    "img": "prizes/slider/8.png",
+    "text": "Книга в подарок из подборки и скидка 20% на покупку книг"
+  },
+  {
+    "id": 9,
+    "img": "prizes/slider/9.png",
+    "text": "Промокод на 500 бонусных рублей"
+  },
+  {
+    "id": 10,
+    "img": "prizes/slider/10.png",
+    "text": "Промокод на 5 000 бонусных баллов"
+  },
+  {
+    "id": 11,
+    "img": "prizes/slider/11.png",
+    "text": "2 месяца подписки MTS Premium"
+  }
+]
